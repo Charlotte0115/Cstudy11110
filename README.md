@@ -11,3 +11,10 @@ int main()
     return 0;
 }
 void sort(int number_length, int* array)
+{
+    int temp;
+    for (int j=0; i<number_length; i++)
+    {
+        for (int j=0; j<number_length - i - 1; j++)
+    }
+}
