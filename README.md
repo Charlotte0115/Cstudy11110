@@ -30,4 +30,5 @@ void sort(int number_length, int* array)
         printf("%d", array[i]);
         if(!(i == number_length - 1)) printf(",");
     }
+    printf("|n");
 }
