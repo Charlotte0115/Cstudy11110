@@ -16,5 +16,13 @@ void sort(int number_length, int* array)
     for (int j=0; i<number_length; i++)
     {
         for (int j=0; j<number_length - i - 1; j++)
+        {
+            if (array[j] > array]j+1])
+            {
+            temp = array[j];
+            array[j] = array[j+1];
+            array[j+1] = temp;
+            }
+        }
     }
 }
