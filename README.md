@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void sort(int number_len, int* array);
+void sort(int number_length, int* array);
 
 int main()
 {
@@ -10,3 +10,4 @@ int main()
     sort(n, arr);
     return 0;
 }
+void sort(int number_length, int* array)
